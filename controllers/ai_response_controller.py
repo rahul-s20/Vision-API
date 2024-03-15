@@ -10,6 +10,14 @@ from datetime import datetime
 from utils.chat_net import EncoderRNN, LuongAttnDecoderRNN, GreedySearchDecoder
 import os
 
+# from sklearn.tree import DecisionTreeClassifier
+# from sklearn.feature_extraction.text import TfidfTransformer, TfidfVectorizer
+# from sklearn.pipeline import Pipeline
+# from sklearn.feature_extraction.text import CountVectorizer
+# import string
+# import joblib
+# from pandas import DataFrame, concat
+
 # Default word tokens
 PAD_token = 0  # Used for padding short sentences
 SOS_token = 1  # Start-of-sentence token

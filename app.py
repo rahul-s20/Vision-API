@@ -2,6 +2,7 @@ from flask import Flask
 from flask_mongoengine import MongoEngine
 from routes.user_route import user_
 from routes.ai_response_route import ai_response_
+from routes.home_route import vision_home_
 
 db = MongoEngine()
 
@@ -12,4 +13,5 @@ def create_app(env='Development'):
     db.init_app(app)
     app.register_blueprint(user_)
     app.register_blueprint(ai_response_)
+    app.register_blueprint(vision_home_)
     return app
