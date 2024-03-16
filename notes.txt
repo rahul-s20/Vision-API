@@ -1,2 +1,6 @@
 pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu113
 venv\Scripts\python.exe -m pip install pandas joblib
+lt -p 8000 -s visionapi
+https://techmonger.github.io/14/localtunnel-example/
+
+password:https://loca.lt/mytunnelpassword
